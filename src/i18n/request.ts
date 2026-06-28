@@ -17,15 +17,36 @@ async function resolveLocale(): Promise<Locale> {
   return defaultLocale;
 }
 
+type Dict = { [key: string]: unknown };
+
+/** Deep-merge so a partial locale (e.g. Javanese) inherits any missing keys from Indonesian. */
+function deepMerge(base: Dict, override: Dict): Dict {
+  const out: Dict = { ...base };
+  for (const key of Object.keys(override)) {
+    const b = base[key];
+    const o = override[key];
+    if (
+      b && o &&
+      typeof b === "object" && typeof o === "object" &&
+      !Array.isArray(b) && !Array.isArray(o)
+    ) {
+      out[key] = deepMerge(b as Dict, o as Dict);
+    } else {
+      out[key] = o;
+    }
+  }
+  return out;
+}
+
 export default getRequestConfig(async () => {
   const locale = await resolveLocale();
 
-  // Javanese only covers nav + hero in this phase; fall back to Indonesian for the rest.
-  const base = (await import(`../../messages/id.json`)).default;
+  // Indonesian is the base; other locales deep-merge over it (missing keys fall back to ID).
+  const base = (await import(`../../messages/id.json`)).default as Dict;
   const messages =
     locale === "id"
       ? base
-      : { ...base, ...(await import(`../../messages/${locale}.json`)).default };
+      : deepMerge(base, (await import(`../../messages/${locale}.json`)).default as Dict);
 
   return { locale, messages };
 });

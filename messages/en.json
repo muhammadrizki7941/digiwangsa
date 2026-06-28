@@ -13,11 +13,11 @@
     "recommended": "Recommended"
   },
   "hero": {
-    "eyebrow": "Website & Application Development",
-    "titleLine1": "Transform Your Vision",
-    "titleLine2": "Into A Powerful",
-    "titleHighlight": "Digital Experience.",
-    "subtitle": "Digiwangsa helps individuals, creators, businesses, and companies build premium websites and applications designed to strengthen their brand, improve credibility, and create meaningful digital experiences.",
+    "eyebrow": "Own Your Digital Presence",
+    "titleLine1": "Your Business Is Real.",
+    "titleLine2": "Your Digital Must Be",
+    "titleHighlight": "Stronger.",
+    "subtitle": "Don't let your business just rent space on someone else's platform. Build digital assets you truly own — a website, online store, and app fully under your control.",
     "ctaPrimary": "Start Your Project",
     "ctaSecondary": "Explore Portfolio",
     "social": "Happy Clients Worldwide",
@@ -138,11 +138,35 @@
     "rights": "All rights reserved."
   },
   "cta": {
-    "eyebrow": "Let's Build Together",
-    "title": "Ready To Bring Your Vision To Life?",
-    "subtitle": "Tell us about your project. Free consultation, no commitment — let's craft a digital experience worthy of your brand.",
+    "eyebrow": "Don't Wait",
+    "title": "Your Business Is Too Valuable To Fully Depend On Someone Else's Platform.",
+    "subtitle": "Start building digital assets you own today. Tell us about your business — we'll prepare the digital solution.",
     "primary": "Free Consultation via WhatsApp",
     "secondary": "View Pricing"
+  },
+  "pain": {
+    "eyebrow": "The Reality You Need To Know",
+    "title": "Why You Must Own Your Own Digital Presence",
+    "subtitle": "Selling only on marketplaces, social media, or someone else's platform means playing on land that can be taken away at any moment.",
+    "bridge": "It's time to own your own digital home.",
+    "items": [
+      {
+        "title": "Marketplace Fees Keep Choking Your Margin",
+        "desc": "It started at 2%, now it's 10–15% — plus shipping, paid ads, and vouchers you cover. You sell harder while your margin quietly erodes."
+      },
+      {
+        "title": "Algorithms Change — Your Store Can Go Quiet Overnight",
+        "desc": "One algorithm update on Shopee, TikTok, or Instagram can crash your traffic overnight. You have zero control over it."
+      },
+      {
+        "title": "Tighter Regulations — A Legal Business Needs a Digital Identity",
+        "desc": "Licensing, digital taxes, and B2B tenders increasingly require an official online presence. Without a website, you're hard to trust formally."
+      },
+      {
+        "title": "Your Customer Data Belongs to the Marketplace, Not You",
+        "desc": "On marketplaces you don't know who your buyers are, can't follow up, and can't build loyalty. They hold the data — not you."
+      }
+    ]
   },
   "services": {
     "eyebrow": "Our Services",

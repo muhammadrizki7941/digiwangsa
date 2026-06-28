@@ -13,11 +13,11 @@
     "recommended": "Disarankan"
   },
   "hero": {
-    "eyebrow": "Pembuatan Website & Aplikasi",
-    "titleLine1": "Ubah Visi Anda",
-    "titleLine2": "Menjadi Sebuah",
-    "titleHighlight": "Pengalaman Digital.",
-    "subtitle": "Digiwangsa membantu individu, kreator, bisnis, dan perusahaan membangun website serta aplikasi premium yang dirancang untuk memperkuat brand, meningkatkan kredibilitas, dan menghadirkan pengalaman digital yang bermakna.",
+    "eyebrow": "Bangun Aset Digital Milikmu",
+    "titleLine1": "Usahamu Nyata.",
+    "titleLine2": "Digitalnya Harus",
+    "titleHighlight": "Lebih Kuat.",
+    "subtitle": "Jangan biarkan bisnismu cuma numpang hidup di platform orang lain. Bangun aset digital milikmu sendiri — website, toko online, dan aplikasi yang sepenuhnya kamu kendalikan.",
     "ctaPrimary": "Mulai Proyek Anda",
     "ctaSecondary": "Lihat Portofolio",
     "social": "Klien Puas di Seluruh Dunia",
@@ -138,11 +138,35 @@
     "rights": "Seluruh hak cipta dilindungi."
   },
   "cta": {
-    "eyebrow": "Mari Bangun Bersama",
-    "title": "Siap Mewujudkan Visi Anda?",
-    "subtitle": "Ceritakan proyek Anda. Konsultasi gratis, tanpa komitmen — mari ciptakan pengalaman digital yang layak untuk brand Anda.",
+    "eyebrow": "Jangan Tunda",
+    "title": "Bisnismu Terlalu Berharga untuk Bergantung Penuh pada Platform Orang Lain.",
+    "subtitle": "Mulai bangun aset digital milikmu hari ini. Ceritakan bisnismu — kami siapkan solusi digitalnya.",
     "primary": "Konsultasi Gratis via WhatsApp",
     "secondary": "Lihat Harga"
+  },
+  "pain": {
+    "eyebrow": "Kenyataan yang Harus Kamu Tahu",
+    "title": "Kenapa Harus Punya Digital Sendiri?",
+    "subtitle": "Jualan di marketplace, media sosial, atau platform orang lain artinya kamu main di tanah yang bisa dicabut kapan saja.",
+    "bridge": "Saatnya punya rumah digital sendiri.",
+    "items": [
+      {
+        "title": "Biaya Admin Marketplace Makin Mencekik",
+        "desc": "Dulu 2%, sekarang 10–15%. Belum ongkir, iklan berbayar, dan voucher yang kamu tanggung. Jualan makin keras, tapi marginmu digerus pelan-pelan."
+      },
+      {
+        "title": "Algoritma Berubah, Tokomu Bisa Tiba-tiba Sepi",
+        "desc": "Satu update algoritma Shopee, TikTok, atau Instagram bisa bikin traffic tokomu anjlok dalam semalam — dan kamu nggak punya kendali sama sekali."
+      },
+      {
+        "title": "Regulasi Makin Ketat — Bisnis Legal Butuh Identitas Digital",
+        "desc": "OSS, NIB, pajak digital, hingga tender B2B menuntut kehadiran online resmi. Tanpa website, bisnismu sulit dipercaya secara formal."
+      },
+      {
+        "title": "Data Pelangganmu Dipegang Marketplace, Bukan Kamu",
+        "desc": "Di marketplace, kamu nggak tahu siapa pembelimu, nggak bisa follow-up, nggak bisa bangun loyalitas. Datanya mereka yang pegang, bukan kamu."
+      }
+    ]
   },
   "services": {
     "eyebrow": "Layanan Kami",
