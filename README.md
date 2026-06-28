@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+##  DEPLOY ON VPS 
+📌 Catatan untuk update ke depan: karena kita pakai db push (bukan migration history), kalau nanti ada perubahan skema, pakai:
+
+npx prisma db push
+(bukan migrate deploy). Nanti setelah live, saya bisa rapikan file migration di repo biar migrate deploy jalan lintas-OS — tapi untuk sekarang db push ini yang tercepat bikin kamu online.
+
+Lapor hasil npx prisma db seed dan npm run build ya — kalau dua-duanya sukses, kita langsung ke Fase 5: Add Project + domain + SSL. 

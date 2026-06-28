@@ -7,6 +7,7 @@
     "pricing": "Harga",
     "about": "Tentang Kami",
     "blog": "Blog",
+    "domain": "Domain",
     "consultation": "Konsultasi Gratis",
     "language": "Bahasa",
     "autoDetect": "Deteksi Otomatis",
@@ -143,6 +144,22 @@
     "subtitle": "Mulai bangun aset digital milikmu hari ini. Ceritakan bisnismu — kami siapkan solusi digitalnya.",
     "primary": "Konsultasi Gratis via WhatsApp",
     "secondary": "Lihat Harga"
+  },
+  "domain": {
+    "eyebrow": "Domain Custom",
+    "title": "Cek Domain Bisnismu — Seketika",
+    "subtitle": "Langsung tahu apakah domain bisnismu tersedia beserta harganya per tahun. Brand-mu layak punya alamat sendiri.",
+    "placeholder": "bisnisanda.com",
+    "check": "Cek",
+    "checking": "Mengecek…",
+    "available": "Tersedia!",
+    "taken": "Sudah terdaftar",
+    "unknown": "Tidak bisa diverifikasi — hubungi kami untuk cek",
+    "priceLabel": "Harga",
+    "perYear": "/ tahun",
+    "order": "Pesan domain ini",
+    "note": "Harga sudah termasuk registrasi & setup. Kami yang urus semuanya — kamu tinggal pilih domain.",
+    "errorInvalid": "Masukkan domain yang valid, mis. bisnisanda.com"
   },
   "pain": {
     "eyebrow": "Kenyataan yang Harus Kamu Tahu",

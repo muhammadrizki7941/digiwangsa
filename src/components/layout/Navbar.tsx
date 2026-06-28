@@ -29,6 +29,7 @@ export default function Navbar() {
     { href: "/pricing", label: t("pricing") },
     { href: "/about", label: t("about") },
     { href: "/blog", label: t("blog") },
+    { href: "/domain", label: t("domain") },
   ];
 
   return (

@@ -7,6 +7,7 @@
     "pricing": "Pricing",
     "about": "About Us",
     "blog": "Blog",
+    "domain": "Domain",
     "consultation": "Consultation Free",
     "language": "Language",
     "autoDetect": "Auto Detect",
@@ -143,6 +144,22 @@
     "subtitle": "Start building digital assets you own today. Tell us about your business — we'll prepare the digital solution.",
     "primary": "Free Consultation via WhatsApp",
     "secondary": "View Pricing"
+  },
+  "domain": {
+    "eyebrow": "Custom Domain",
+    "title": "Check Your Domain — Instantly",
+    "subtitle": "See if your business domain is available and the yearly price right away. Your brand deserves its own address.",
+    "placeholder": "yourbusiness.com",
+    "check": "Check",
+    "checking": "Checking…",
+    "available": "Available!",
+    "taken": "Already taken",
+    "unknown": "Couldn't verify — contact us to check",
+    "priceLabel": "Price",
+    "perYear": "/ year",
+    "order": "Order this domain",
+    "note": "Price includes registration & setup. We'll handle everything for you — just pick your domain.",
+    "errorInvalid": "Please enter a valid domain, e.g. yourbusiness.com"
   },
   "pain": {
     "eyebrow": "The Reality You Need To Know",
