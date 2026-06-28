@@ -17,8 +17,9 @@ export default function PageHeader({
           src="/asset/background-digiwangsa.png"
           alt=""
           fill
-          className="object-cover object-top opacity-40"
+          className="object-cover object-top opacity-0 dark:opacity-40"
         />
+        <div className="glow-gold absolute right-0 top-0 h-80 w-80" />
         <div className="absolute inset-0 bg-gradient-to-b from-base/70 via-base/85 to-base" />
       </div>
 

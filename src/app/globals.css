@@ -1,35 +1,47 @@
 @import "tailwindcss";
 
+/* Class-based dark mode (default theme = light) */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
-  /* Surfaces */
-  --color-base: #0b0a08;
-  --color-base-2: #100d09;
-  --color-elevated: #16130d;
-  --color-elevated-2: #1d1810;
+  /* ===== LIGHT (default) ===== */
+  --color-base: #faf7ef;
+  --color-base-2: #f2ecdd;
+  --color-elevated: #ffffff;
+  --color-elevated-2: #f8f3e8;
 
-  /* Gold palette */
-  --color-gold: #c9a24b;
+  --color-gold: #b8860b;
   --color-gold-bright: #d4af37;
-  --color-gold-soft: #e8d9a0;
-  --color-gold-line: #6e5a2e;
+  --color-gold-soft: #9a6f12;
+  --color-gold-line: #e3d6b0;
 
-  /* Text */
-  --color-cream: #f5f1e6;
-  --color-muted: #a89e86;
+  --color-cream: #1c1710; /* primary text on light */
+  --color-muted: #6f6555;
 
   /* Fonts (wired to next/font in layout.tsx) */
   --font-display: var(--font-playfair);
   --font-sans: var(--font-jakarta);
 }
 
-:root {
-  --background: #0b0a08;
-  --foreground: #f5f1e6;
+/* ===== DARK overrides ===== */
+.dark {
+  --color-base: #0b0a08;
+  --color-base-2: #100d09;
+  --color-elevated: #16130d;
+  --color-elevated-2: #1d1810;
+
+  --color-gold: #c9a24b;
+  --color-gold-bright: #d4af37;
+  --color-gold-soft: #e8d9a0;
+  --color-gold-line: #6e5a2e;
+
+  --color-cream: #f5f1e6;
+  --color-muted: #a89e86;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--color-base);
+  color: var(--color-cream);
   font-family: var(--font-sans), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -39,16 +51,22 @@ body {
   font-family: var(--font-display), Georgia, serif;
 }
 
-/* Gold gradient text for highlighted words */
+/* Gold gradient text — darker on light for contrast, luminous on dark */
 .text-gold-gradient {
-  background: linear-gradient(120deg, #e8d9a0 0%, #d4af37 45%, #b8860b 100%);
+  background: linear-gradient(120deg, #b8860b 0%, #9a6f12 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
+.dark .text-gold-gradient {
+  background: linear-gradient(120deg, #e8d9a0 0%, #d4af37 45%, #b8860b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-/* Premium gold CTA */
+/* Premium gold CTA (works on both themes) */
 .btn-gold {
   background: linear-gradient(120deg, #e8d9a0 0%, #d4af37 50%, #c9a24b 100%);
   color: #1a1407;
@@ -61,16 +79,28 @@ body {
 
 /* Glassmorphism card */
 .card-glass {
-  background: linear-gradient(160deg, rgba(232, 217, 160, 0.05), rgba(22, 19, 13, 0.6));
-  border: 1px solid rgba(110, 90, 46, 0.4);
+  background: linear-gradient(160deg, rgba(184, 134, 11, 0.06), rgba(255, 255, 255, 0.75));
+  border: 1px solid var(--color-gold-line);
   backdrop-filter: blur(8px);
+  box-shadow: 0 10px 30px -18px rgba(120, 90, 20, 0.25);
 }
 .card-glass:hover {
+  border-color: var(--color-gold);
+}
+.dark .card-glass {
+  background: linear-gradient(160deg, rgba(232, 217, 160, 0.05), rgba(22, 19, 13, 0.6));
+  border-color: rgba(110, 90, 46, 0.4);
+  box-shadow: none;
+}
+.dark .card-glass:hover {
   border-color: rgba(201, 162, 75, 0.7);
 }
 
 /* Soft radial gold glow */
 .glow-gold {
+  background: radial-gradient(circle at center, rgba(184, 134, 11, 0.12) 0%, transparent 65%);
+}
+.dark .glow-gold {
   background: radial-gradient(circle at center, rgba(212, 175, 55, 0.18) 0%, transparent 65%);
 }
 

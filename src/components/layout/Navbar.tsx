@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import Logo from "@/components/ui/Logo";
 import LanguageSwitcher from "./LanguageSwitcher";
+import ThemeToggle from "./ThemeToggle";
 import ConsultButton from "@/components/lead/ConsultButton";
 import { cn } from "@/lib/utils";
 
@@ -59,6 +60,7 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
+          <ThemeToggle />
           <LanguageSwitcher />
           <ConsultButton className="btn-gold flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition">
             {t("consultation")}
@@ -90,7 +92,10 @@ export default function Navbar() {
             ))}
           </nav>
           <div className="mt-4 flex flex-col gap-3">
-            <LanguageSwitcher />
+            <div className="flex items-center gap-3">
+              <ThemeToggle />
+              <LanguageSwitcher />
+            </div>
             <ConsultButton className="btn-gold flex w-full items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-semibold">
               {t("consultation")}
               <ArrowUpRight size={16} />

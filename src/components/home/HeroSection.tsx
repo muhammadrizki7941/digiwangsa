@@ -13,7 +13,6 @@ import {
   type Variants,
 } from "framer-motion";
 import GoldParticles from "@/components/motion/GoldParticles";
-import ConsultButton from "@/components/lead/ConsultButton";
 
 const container: Variants = {
   hidden: {},
@@ -50,7 +49,7 @@ export default function HeroSection() {
           alt=""
           fill
           priority
-          className="scale-110 object-cover object-right-top opacity-90"
+          className="scale-110 object-cover object-right-top opacity-0 dark:opacity-90"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-base via-base/85 to-base/40" />
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-base to-transparent" />
@@ -87,10 +86,13 @@ export default function HeroSection() {
             variants={item}
             className="mt-9 flex flex-wrap items-center gap-4"
           >
-            <ConsultButton className="btn-gold flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold transition">
+            <Link
+              href="/pricing"
+              className="btn-gold flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold transition"
+            >
               {t("ctaPrimary")}
               <ArrowRight size={17} />
-            </ConsultButton>
+            </Link>
             <Link
               href="/portfolio"
               className="flex items-center gap-2 rounded-full border border-gold-line/60 px-7 py-3.5 text-sm font-medium text-cream transition hover:border-gold/70"
