@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "portfolio": "Portofolio",
+    "process": "Proses",
+    "pricing": "Rega",
+    "about": "Babagan Kita",
+    "blog": "Blog",
+    "consultation": "Konsultasi Gratis",
+    "language": "Basa",
+    "autoDetect": "Deteksi Otomatis",
+    "recommended": "Disaranake"
+  },
+  "hero": {
+    "eyebrow": "Damel Website & Aplikasi",
+    "titleLine1": "Owahana Visi Panjenengan",
+    "titleLine2": "Dadi Sawijining",
+    "titleHighlight": "Pengalaman Digital.",
+    "subtitle": "Digiwangsa mbiyantu pawongan, kreator, bisnis, lan perusahaan mbangun website lan aplikasi premium kang dirancang kanggo nguatake brand, ngundhakake kapercayan, sarta nyiptakake pengalaman digital kang nduweni makna.",
+    "ctaPrimary": "Wiwiti Proyek Panjenengan",
+    "ctaSecondary": "Deleng Portofolio",
+    "social": "Klien Marem ing Saindenging Donya"
+  }
+}

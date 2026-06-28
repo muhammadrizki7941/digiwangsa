@@ -1,0 +1,134 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Admin {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String
+  createdAt DateTime @default(now())
+}
+
+model Article {
+  id          String    @id @default(cuid())
+  title       String
+  slug        String    @unique
+  excerpt     String    @db.Text
+  content     String    @db.LongText
+  coverImage  String?
+  category    String
+  readMins    Int       @default(5)
+  metaTitle   String?
+  metaDesc    String?   @db.Text
+  status      String    @default("draft") // draft | published
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model PricingPlan {
+  id          String  @id @default(cuid())
+  name        String
+  price       String
+  period      String  @default("")
+  segment     String
+  features    Json // string[]
+  highlighted Boolean @default(false)
+  order       Int     @default(0)
+}
+
+model FAQ {
+  id       String @id @default(cuid())
+  question String @db.Text
+  answer   String @db.Text
+  order    Int    @default(0)
+}
+
+model Testimonial {
+  id      String  @id @default(cuid())
+  name    String
+  role    String
+  company String?
+  quote   String  @db.Text
+  avatar  String?
+  order   Int     @default(0)
+}
+
+model Lead {
+  id          String   @id @default(cuid())
+  name        String
+  whatsapp    String
+  email       String
+  business    String?
+  social      String?
+  description String   @db.Text
+  status      String   @default("new") // new | contacted
+  createdAt   DateTime @default(now())
+}
+
+model ChatSession {
+  id         String        @id // client-generated UUID
+  visitor    String?
+  locale     String        @default("id")
+  mode       String        @default("ai") // ai | human
+  needsHuman Boolean       @default(false)
+  status     String        @default("open") // open | closed
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+  messages   ChatMessage[]
+}
+
+model ChatMessage {
+  id        String      @id @default(cuid())
+  sessionId String
+  session   ChatSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  role      String // user | bot | admin
+  message   String      @db.Text
+  source    String      @default("rule") // rule | llm | fallback | human | ack
+  createdAt DateTime    @default(now())
+
+  @@index([sessionId])
+}
+
+model Setting {
+  key   String @id
+  value String @db.Text
+}
+
+model LandingGeneration {
+  id        String   @id @default(cuid())
+  ip        String
+  day       String // YYYY-MM-DD
+  business  String?
+  theme     String?
+  createdAt DateTime @default(now())
+
+  @@index([ip, day])
+}
+
+model Portfolio {
+  id        String   @id @default(cuid())
+  title     String
+  slug      String   @unique
+  category  String
+  client    String
+  year      String
+  summary     String  @db.Text
+  challenge   String  @db.Text
+  solution    String  @db.Text
+  result      String? @db.Text
+  tech        Json // string[] of tech tags
+  accent      String  @default("from-amber-900/40 to-base")
+  coverImage  String? // desktop screenshot URL
+  mobileImage String? // mobile screenshot URL
+  demoUrl   String?
+  featured  Boolean  @default(false)
+  order     Int      @default(0)
+  createdAt DateTime @default(now())
+}

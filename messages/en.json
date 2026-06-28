@@ -1,0 +1,262 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "process": "Process",
+    "pricing": "Pricing",
+    "about": "About Us",
+    "blog": "Blog",
+    "consultation": "Consultation Free",
+    "language": "Language",
+    "autoDetect": "Auto Detect",
+    "recommended": "Recommended"
+  },
+  "hero": {
+    "eyebrow": "Website & Application Development",
+    "titleLine1": "Transform Your Vision",
+    "titleLine2": "Into A Powerful",
+    "titleHighlight": "Digital Experience.",
+    "subtitle": "Digiwangsa helps individuals, creators, businesses, and companies build premium websites and applications designed to strengthen their brand, improve credibility, and create meaningful digital experiences.",
+    "ctaPrimary": "Start Your Project",
+    "ctaSecondary": "Explore Portfolio",
+    "social": "Happy Clients Worldwide",
+    "aiCta": "✨ Try our AI: build a landing page"
+  },
+  "aiStudio": {
+    "badge": "AI Demo · Digiwangsa",
+    "title": "Build a Landing Page with AI",
+    "subtitle": "Describe your business and let our AI design a landing page concept in seconds — a glimpse of what we can craft for you. (Static UI demo, 2 generations/day.)",
+    "business": "Business Name",
+    "businessPh": "e.g. Kopi Senja",
+    "description": "Describe Your Business",
+    "descriptionPh": "What you sell, your audience, your vibe and goals…",
+    "theme": "Choose a Style",
+    "generate": "Generate Landing Page",
+    "generating": "Designing your page…",
+    "remaining": "{n} generation(s) left today",
+    "limitReached": "You've reached today's limit (2). Come back tomorrow!",
+    "note": "This is an AI-generated static mockup to showcase our design capability. Want the real thing? Start your project with us.",
+    "regenerate": "Generate Again",
+    "download": "Download HTML",
+    "openNew": "Open in new tab",
+    "previewHint": "Your AI-designed landing page will appear here.",
+    "error": "Something went wrong. Please try again.",
+    "cta": "Start Your Project"
+  },
+  "solutions": {
+    "eyebrow": "Explore Our Solutions",
+    "title": "Tailored For Every Vision And Ambition.",
+    "subtitle": "Discover how we craft digital solutions that elevate personal brands, empower businesses, and drive enterprise growth.",
+    "viewCase": "View Case Study",
+    "personal": {
+      "tag": "Personal Brand / Influencer",
+      "title": "Your Story Deserves A Digital Home.",
+      "desc": "Create an exclusive personal website that represents your identity and turns your audience into loyal communities."
+    },
+    "umkm": {
+      "tag": "MSME & Business",
+      "title": "Make Your Business Look More Professional.",
+      "desc": "Build a modern digital presence that increases trust, attracts customers, and helps your business grow."
+    },
+    "enterprise": {
+      "tag": "Company & Enterprise",
+      "title": "Digital Solutions Built For Growth.",
+      "desc": "From company profiles to custom applications, we create scalable solutions that support your business goals."
+    }
+  },
+  "why": {
+    "eyebrow": "Why Choose Digiwangsa",
+    "title": "More Than A Website. We Build Digital Experiences.",
+    "design": {
+      "title": "Premium Design",
+      "desc": "Modern interfaces crafted with attention to detail and a strong visual identity."
+    },
+    "performance": {
+      "title": "High Performance",
+      "desc": "Fast, responsive, and optimized for every device."
+    },
+    "strategy": {
+      "title": "Strategic Approach",
+      "desc": "Every design is created with purpose — not just beautiful, but effective."
+    },
+    "custom": {
+      "title": "Custom Development",
+      "desc": "Websites and applications tailored to your unique business needs."
+    },
+    "support": {
+      "title": "Reliable Support",
+      "desc": "We provide continuous support to ensure your digital success."
+    }
+  },
+  "stats": {
+    "projects": "Projects Completed",
+    "clients": "Happy Clients",
+    "satisfaction": "Client Satisfaction",
+    "experience": "Years Experience",
+    "support": "Support Available"
+  },
+  "consult": {
+    "title": "Start Your Project",
+    "subtitle": "Tell us a little about you — we'll continue on WhatsApp.",
+    "step": "Step",
+    "of": "of",
+    "name": "Full Name",
+    "namePh": "e.g. Andi Pratama",
+    "whatsapp": "WhatsApp Number",
+    "whatsappPh": "e.g. 0812xxxxxxx",
+    "email": "Email",
+    "emailPh": "you@email.com",
+    "business": "Business Name",
+    "social": "Social Media",
+    "socialPh": "e.g. instagram.com/yourbrand",
+    "description": "About You & Your Business",
+    "descriptionPh": "Tell us about your goals, what you need, and your vision…",
+    "optional": "optional",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Send & Continue",
+    "sending": "Sending…",
+    "successTitle": "Thank you!",
+    "successDesc": "Your request is in. We're opening WhatsApp to continue the chat.",
+    "toWhatsapp": "Continue on WhatsApp",
+    "error": "Please complete the required fields."
+  },
+  "testimonials": {
+    "eyebrow": "What Clients Say",
+    "title": "Trusted By Brands That Demand Excellence."
+  },
+  "faqSection": {
+    "eyebrow": "Frequently Asked Questions",
+    "title": "Everything You Need To Know."
+  },
+  "footer": {
+    "tagline": "Digital. Traditional. Solution.",
+    "desc": "Premium websites and applications crafted with a Javanese soul and world-class standards.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "cta": {
+    "eyebrow": "Let's Build Together",
+    "title": "Ready To Bring Your Vision To Life?",
+    "subtitle": "Tell us about your project. Free consultation, no commitment — let's craft a digital experience worthy of your brand.",
+    "primary": "Free Consultation via WhatsApp",
+    "secondary": "View Pricing"
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "title": "Digital Craftsmanship, End To End.",
+    "subtitle": "From a single landing page to a full custom application — we design, build, and maintain digital products that perform.",
+    "feature": "What you get",
+    "items": [
+      {
+        "name": "Company Profile & Landing Page",
+        "desc": "Elegant, fast-loading pages that build credibility and convert visitors into clients.",
+        "features": ["Custom premium design", "SEO-ready structure", "Mobile-first & responsive", "WhatsApp & form integration"]
+      },
+      {
+        "name": "E-Commerce & Online Store",
+        "desc": "Sell with confidence through a secure, easy-to-manage online storefront.",
+        "features": ["Product & order management", "Payment gateway integration", "Inventory dashboard", "Promo & discount tools"]
+      },
+      {
+        "name": "Web Application & Custom System",
+        "desc": "Tailor-made systems that automate your operations and scale with your business.",
+        "features": ["Custom workflow & roles", "Dashboard & analytics", "API & third-party integration", "Cloud-ready architecture"]
+      },
+      {
+        "name": "Maintenance, SEO & Support",
+        "desc": "Keep your digital presence fast, secure, and discoverable over time.",
+        "features": ["Regular updates & backups", "Performance optimization", "On-page SEO", "Priority technical support"]
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How We Work",
+    "title": "A Clear Path From Idea To Launch.",
+    "subtitle": "A transparent, collaborative process — you always know what happens next.",
+    "steps": [
+      { "step": "01", "name": "Consultation", "desc": "We listen to your goals, audience, and vision to understand exactly what you need." },
+      { "step": "02", "name": "Proposal & Planning", "desc": "We craft a tailored proposal with scope, timeline, and a clear quotation." },
+      { "step": "03", "name": "Design & Development", "desc": "We design the experience and build it with clean, performant, modern code." },
+      { "step": "04", "name": "Review & Revision", "desc": "You review, we refine — together we polish every detail to perfection." },
+      { "step": "05", "name": "Launch & Support", "desc": "We launch your product and stay by your side with ongoing support." }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Transparent Pricing",
+    "title": "Plans For Every Stage Of Growth.",
+    "subtitle": "Simple, honest pricing. No hidden fees — only what your project truly needs.",
+    "popular": "Most Popular",
+    "cta": "Get Started",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "Rp 1,5jt",
+        "period": "/ project",
+        "segment": "For creators & personal brands",
+        "features": ["1–3 page landing page", "Premium responsive design", "Basic SEO setup", "WhatsApp integration", "2x free revisions"]
+      },
+      {
+        "name": "Growth",
+        "price": "Rp 5jt",
+        "period": "/ project",
+        "segment": "For MSMEs & growing businesses",
+        "features": ["Up to 8 pages", "Custom design & CMS", "Advanced SEO & analytics", "E-commerce ready", "Payment integration", "4x free revisions"]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "segment": "For companies & custom systems",
+        "features": ["Custom web application", "Dedicated dashboard & roles", "API & system integration", "Scalable cloud architecture", "Priority support & SLA", "Unlimited revisions (per contract)"]
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About Digiwangsa",
+    "title": "Where Javanese Soul Meets World-Class Technology.",
+    "intro": "Digiwangsa is a digital studio born from a simple belief: technology should carry meaning. We blend the depth of Javanese heritage — patience, craft, and harmony — with the precision of modern web engineering.",
+    "story": "The name “Digiwangsa” unites the digital era with “wangsa” — a dynasty, a lineage. We build digital legacies: websites and applications meant to last, to represent, and to grow with you. Like a wayang performance, every project we craft tells a story, with care behind every detail.",
+    "valuesTitle": "What We Stand For",
+    "values": [
+      { "name": "Craft Over Templates", "desc": "Every project is built bespoke — designed around your identity, never copy-pasted." },
+      { "name": "Meaning & Purpose", "desc": "Beautiful is the baseline. We design for outcomes that matter to your business." },
+      { "name": "Partnership", "desc": "We work with you, not just for you — transparent, collaborative, and honest." },
+      { "name": "Lasting Quality", "desc": "Clean code and timeless design, built to perform and endure." }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Selected Work",
+    "title": "Digital Experiences We're Proud Of.",
+    "subtitle": "A glimpse of projects we've crafted for creators, businesses, and enterprises.",
+    "viewProject": "View Project",
+    "backToList": "Back to Portfolio",
+    "challenge": "The Challenge",
+    "solution": "Our Solution",
+    "result": "The Result",
+    "techStack": "Tech Stack",
+    "visit": "Visit Live Site",
+    "notFound": "Project not found."
+  },
+  "chat": {
+    "title": "Sasa — Virtual Assistant",
+    "status": "Online · usually replies instantly",
+    "greeting": "Hi! 👋 I'm Sasa, the Digiwangsa assistant. Ask me about our services, pricing, or process!",
+    "placeholder": "Type a message…",
+    "send": "Send",
+    "typing": "Sasa is typing…",
+    "whatsapp": "Connect to WhatsApp",
+    "open": "Chat with us"
+  },
+  "blog": {
+    "eyebrow": "Insights & Journal",
+    "title": "Ideas On Design, Code & Digital Growth.",
+    "subtitle": "Practical thoughts and behind-the-scenes notes from the Digiwangsa studio.",
+    "readMore": "Read Article",
+    "backToList": "Back to Blog",
+    "minRead": "min read",
+    "notFound": "Article not found."
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "portfolio": "Portofolio",
+    "process": "Proses",
+    "pricing": "Harga",
+    "about": "Tentang Kami",
+    "blog": "Blog",
+    "consultation": "Konsultasi Gratis",
+    "language": "Bahasa",
+    "autoDetect": "Deteksi Otomatis",
+    "recommended": "Disarankan"
+  },
+  "hero": {
+    "eyebrow": "Pembuatan Website & Aplikasi",
+    "titleLine1": "Ubah Visi Anda",
+    "titleLine2": "Menjadi Sebuah",
+    "titleHighlight": "Pengalaman Digital.",
+    "subtitle": "Digiwangsa membantu individu, kreator, bisnis, dan perusahaan membangun website serta aplikasi premium yang dirancang untuk memperkuat brand, meningkatkan kredibilitas, dan menghadirkan pengalaman digital yang bermakna.",
+    "ctaPrimary": "Mulai Proyek Anda",
+    "ctaSecondary": "Lihat Portofolio",
+    "social": "Klien Puas di Seluruh Dunia",
+    "aiCta": "✨ Coba AI kami: buat landing page"
+  },
+  "aiStudio": {
+    "badge": "Demo AI · Digiwangsa",
+    "title": "Buat Landing Page dengan AI",
+    "subtitle": "Ceritakan bisnis Anda dan biarkan AI kami merancang konsep landing page dalam hitungan detik — gambaran kecil dari yang bisa kami buatkan. (Demo UI statis, 2 kali generate/hari.)",
+    "business": "Nama Bisnis",
+    "businessPh": "mis. Kopi Senja",
+    "description": "Ceritakan Bisnis Anda",
+    "descriptionPh": "Apa yang Anda jual, target audiens, gaya, dan tujuan…",
+    "theme": "Pilih Gaya",
+    "generate": "Buat Landing Page",
+    "generating": "Mendesain halaman Anda…",
+    "remaining": "Sisa {n} generate hari ini",
+    "limitReached": "Anda sudah mencapai batas hari ini (2). Kembali lagi besok ya!",
+    "note": "Ini mockup statis hasil AI untuk menunjukkan kemampuan desain kami. Mau versi sungguhan? Mulai proyek Anda bersama kami.",
+    "regenerate": "Buat Lagi",
+    "download": "Unduh HTML",
+    "openNew": "Buka di tab baru",
+    "previewHint": "Landing page rancangan AI akan muncul di sini.",
+    "error": "Terjadi kesalahan. Silakan coba lagi.",
+    "cta": "Mulai Proyek Anda"
+  },
+  "solutions": {
+    "eyebrow": "Jelajahi Solusi Kami",
+    "title": "Dirancang Untuk Setiap Visi Dan Ambisi.",
+    "subtitle": "Temukan bagaimana kami merancang solusi digital yang mengangkat personal brand, memberdayakan bisnis, dan mendorong pertumbuhan enterprise.",
+    "viewCase": "Lihat Studi Kasus",
+    "personal": {
+      "tag": "Personal Brand / Influencer",
+      "title": "Ceritamu Layak Punya Rumah Digital.",
+      "desc": "Buat website pribadi eksklusif yang merepresentasikan identitasmu dan mengubah audiens menjadi komunitas yang loyal."
+    },
+    "umkm": {
+      "tag": "UMKM & Bisnis",
+      "title": "Buat Bisnismu Tampil Lebih Profesional.",
+      "desc": "Bangun kehadiran digital modern yang meningkatkan kepercayaan, menarik pelanggan, dan membantu bisnismu bertumbuh."
+    },
+    "enterprise": {
+      "tag": "Perusahaan & Enterprise",
+      "title": "Solusi Digital untuk Pertumbuhan.",
+      "desc": "Dari company profile hingga aplikasi custom, kami menciptakan solusi yang skalabel untuk mendukung tujuan bisnis Anda."
+    }
+  },
+  "why": {
+    "eyebrow": "Mengapa Memilih Digiwangsa",
+    "title": "Lebih Dari Sekadar Website. Kami Membangun Pengalaman Digital.",
+    "design": {
+      "title": "Desain Premium",
+      "desc": "Antarmuka modern yang dibuat dengan perhatian pada detail dan identitas visual yang kuat."
+    },
+    "performance": {
+      "title": "Performa Tinggi",
+      "desc": "Cepat, responsif, dan dioptimalkan untuk setiap perangkat."
+    },
+    "strategy": {
+      "title": "Pendekatan Strategis",
+      "desc": "Setiap desain dibuat dengan tujuan — bukan sekadar indah, tetapi efektif."
+    },
+    "custom": {
+      "title": "Pengembangan Custom",
+      "desc": "Website dan aplikasi yang disesuaikan dengan kebutuhan unik bisnis Anda."
+    },
+    "support": {
+      "title": "Dukungan Andal",
+      "desc": "Kami memberikan dukungan berkelanjutan untuk memastikan kesuksesan digital Anda."
+    }
+  },
+  "stats": {
+    "projects": "Proyek Selesai",
+    "clients": "Klien Puas",
+    "satisfaction": "Kepuasan Klien",
+    "experience": "Tahun Pengalaman",
+    "support": "Dukungan Tersedia"
+  },
+  "consult": {
+    "title": "Mulai Proyek Anda",
+    "subtitle": "Ceritakan sedikit tentang Anda — kita lanjut di WhatsApp.",
+    "step": "Langkah",
+    "of": "dari",
+    "name": "Nama Lengkap",
+    "namePh": "mis. Andi Pratama",
+    "whatsapp": "Nomor WhatsApp",
+    "whatsappPh": "mis. 0812xxxxxxx",
+    "email": "Email",
+    "emailPh": "anda@email.com",
+    "business": "Nama Bisnis",
+    "social": "Sosial Media",
+    "socialPh": "mis. instagram.com/brandanda",
+    "description": "Tentang Anda & Bisnis Anda",
+    "descriptionPh": "Ceritakan tujuan, kebutuhan, dan visi Anda…",
+    "optional": "opsional",
+    "next": "Lanjut",
+    "back": "Kembali",
+    "submit": "Kirim & Lanjutkan",
+    "sending": "Mengirim…",
+    "successTitle": "Terima kasih!",
+    "successDesc": "Permintaan Anda terkirim. Kami membuka WhatsApp untuk melanjutkan obrolan.",
+    "toWhatsapp": "Lanjut ke WhatsApp",
+    "error": "Mohon lengkapi field yang wajib diisi."
+  },
+  "testimonials": {
+    "eyebrow": "Kata Mereka",
+    "title": "Dipercaya Brand yang Menuntut Kualitas."
+  },
+  "faqSection": {
+    "eyebrow": "Pertanyaan yang Sering Diajukan",
+    "title": "Semua yang Perlu Anda Ketahui."
+  },
+  "footer": {
+    "tagline": "Digital. Tradisional. Solusi.",
+    "desc": "Website dan aplikasi premium yang dibuat dengan jiwa Jawa dan standar kelas dunia.",
+    "explore": "Jelajahi",
+    "contact": "Kontak",
+    "rights": "Seluruh hak cipta dilindungi."
+  },
+  "cta": {
+    "eyebrow": "Mari Bangun Bersama",
+    "title": "Siap Mewujudkan Visi Anda?",
+    "subtitle": "Ceritakan proyek Anda. Konsultasi gratis, tanpa komitmen — mari ciptakan pengalaman digital yang layak untuk brand Anda.",
+    "primary": "Konsultasi Gratis via WhatsApp",
+    "secondary": "Lihat Harga"
+  },
+  "services": {
+    "eyebrow": "Layanan Kami",
+    "title": "Keahlian Digital, Dari Hulu Ke Hilir.",
+    "subtitle": "Dari satu landing page hingga aplikasi custom penuh — kami merancang, membangun, dan merawat produk digital yang berkinerja.",
+    "feature": "Yang Anda dapatkan",
+    "items": [
+      {
+        "name": "Company Profile & Landing Page",
+        "desc": "Halaman elegan dan cepat yang membangun kredibilitas serta mengubah pengunjung menjadi klien.",
+        "features": ["Desain premium custom", "Struktur siap SEO", "Mobile-first & responsif", "Integrasi WhatsApp & form"]
+      },
+      {
+        "name": "E-Commerce & Toko Online",
+        "desc": "Berjualan dengan tenang lewat toko online yang aman dan mudah dikelola.",
+        "features": ["Manajemen produk & pesanan", "Integrasi payment gateway", "Dashboard inventaris", "Fitur promo & diskon"]
+      },
+      {
+        "name": "Aplikasi Web & Sistem Custom",
+        "desc": "Sistem yang dibuat khusus untuk mengotomatiskan operasional dan tumbuh bersama bisnis Anda.",
+        "features": ["Alur kerja & peran custom", "Dashboard & analitik", "Integrasi API & pihak ketiga", "Arsitektur siap cloud"]
+      },
+      {
+        "name": "Pemeliharaan, SEO & Dukungan",
+        "desc": "Jaga kehadiran digital Anda tetap cepat, aman, dan mudah ditemukan dari waktu ke waktu.",
+        "features": ["Update & backup rutin", "Optimasi performa", "SEO on-page", "Dukungan teknis prioritas"]
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Cara Kami Bekerja",
+    "title": "Jalur Yang Jelas Dari Ide Ke Peluncuran.",
+    "subtitle": "Proses yang transparan dan kolaboratif — Anda selalu tahu langkah berikutnya.",
+    "steps": [
+      { "step": "01", "name": "Konsultasi", "desc": "Kami mendengarkan tujuan, audiens, dan visi Anda untuk memahami persis kebutuhan Anda." },
+      { "step": "02", "name": "Penawaran & Perencanaan", "desc": "Kami menyusun proposal yang disesuaikan dengan ruang lingkup, timeline, dan penawaran yang jelas." },
+      { "step": "03", "name": "Desain & Pengembangan", "desc": "Kami merancang pengalaman dan membangunnya dengan kode modern yang bersih dan cepat." },
+      { "step": "04", "name": "Review & Revisi", "desc": "Anda meninjau, kami menyempurnakan — bersama kita poles setiap detail hingga sempurna." },
+      { "step": "05", "name": "Peluncuran & Dukungan", "desc": "Kami meluncurkan produk Anda dan tetap mendampingi dengan dukungan berkelanjutan." }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Harga Transparan",
+    "title": "Paket Untuk Setiap Tahap Pertumbuhan.",
+    "subtitle": "Harga sederhana dan jujur. Tanpa biaya tersembunyi — hanya yang benar-benar dibutuhkan proyek Anda.",
+    "popular": "Paling Populer",
+    "cta": "Mulai Sekarang",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "Rp 1,5jt",
+        "period": "/ proyek",
+        "segment": "Untuk kreator & personal brand",
+        "features": ["Landing page 1–3 halaman", "Desain responsif premium", "Setup SEO dasar", "Integrasi WhatsApp", "2x revisi gratis"]
+      },
+      {
+        "name": "Growth",
+        "price": "Rp 5jt",
+        "period": "/ proyek",
+        "segment": "Untuk UMKM & bisnis bertumbuh",
+        "features": ["Hingga 8 halaman", "Desain custom & CMS", "SEO lanjutan & analitik", "Siap e-commerce", "Integrasi pembayaran", "4x revisi gratis"]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "segment": "Untuk perusahaan & sistem custom",
+        "features": ["Aplikasi web custom", "Dashboard & peran khusus", "Integrasi API & sistem", "Arsitektur cloud skalabel", "Dukungan prioritas & SLA", "Revisi tanpa batas (sesuai kontrak)"]
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Tentang Digiwangsa",
+    "title": "Tempat Jiwa Jawa Bertemu Teknologi Kelas Dunia.",
+    "intro": "Digiwangsa adalah studio digital yang lahir dari keyakinan sederhana: teknologi harus bermakna. Kami memadukan kedalaman warisan Jawa — kesabaran, kriya, dan harmoni — dengan presisi rekayasa web modern.",
+    "story": "Nama “Digiwangsa” menyatukan era digital dengan “wangsa” — sebuah dinasti, sebuah garis keturunan. Kami membangun warisan digital: website dan aplikasi yang dibuat untuk bertahan, merepresentasikan, dan tumbuh bersama Anda. Seperti pertunjukan wayang, setiap proyek kami menuturkan sebuah cerita, dengan kesungguhan di balik setiap detail.",
+    "valuesTitle": "Yang Kami Pegang",
+    "values": [
+      { "name": "Kriya, Bukan Template", "desc": "Setiap proyek dibuat khusus — dirancang sesuai identitas Anda, bukan salin-tempel." },
+      { "name": "Makna & Tujuan", "desc": "Indah itu dasar. Kami merancang untuk hasil yang berarti bagi bisnis Anda." },
+      { "name": "Kemitraan", "desc": "Kami bekerja bersama Anda, bukan sekadar untuk Anda — transparan, kolaboratif, dan jujur." },
+      { "name": "Kualitas Yang Bertahan", "desc": "Kode yang bersih dan desain abadi, dibangun untuk berkinerja dan bertahan." }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Karya Pilihan",
+    "title": "Pengalaman Digital Yang Kami Banggakan.",
+    "subtitle": "Sekilas proyek yang kami kerjakan untuk kreator, bisnis, dan enterprise.",
+    "viewProject": "Lihat Proyek",
+    "backToList": "Kembali ke Portofolio",
+    "challenge": "Tantangan",
+    "solution": "Solusi Kami",
+    "result": "Hasil",
+    "techStack": "Teknologi",
+    "visit": "Kunjungi Situs",
+    "notFound": "Proyek tidak ditemukan."
+  },
+  "chat": {
+    "title": "Sasa — Asisten Virtual",
+    "status": "Online · biasanya membalas seketika",
+    "greeting": "Halo! 👋 Saya Sasa, asisten Digiwangsa. Tanya saja soal layanan, harga, atau proses kami!",
+    "placeholder": "Tulis pesan…",
+    "send": "Kirim",
+    "typing": "Sasa sedang mengetik…",
+    "whatsapp": "Hubungkan ke WhatsApp",
+    "open": "Ngobrol dengan kami"
+  },
+  "blog": {
+    "eyebrow": "Wawasan & Jurnal",
+    "title": "Gagasan Seputar Desain, Kode & Pertumbuhan Digital.",
+    "subtitle": "Pemikiran praktis dan catatan di balik layar dari studio Digiwangsa.",
+    "readMore": "Baca Artikel",
+    "backToList": "Kembali ke Blog",
+    "minRead": "menit baca",
+    "notFound": "Artikel tidak ditemukan."
+  }
+}
