@@ -21,7 +21,7 @@
     "subtitle": "Don't let your business just rent space on someone else's platform. Build digital assets you truly own — a website, online store, and app fully under your control.",
     "ctaPrimary": "Check Pricing",
     "ctaSecondary": "Explore Portfolio",
-    "social": "Happy Clients Worldwide",
+    "social": "Happy Clients",
     "aiCta": "✨ Try our AI: build a landing page"
   },
   "aiStudio": {
@@ -158,6 +158,8 @@
     "priceLabel": "Price",
     "perYear": "/ year",
     "order": "Order this domain",
+    "suggested": "Suggested domain names",
+    "suggestedNote": "Other names that may also be available:",
     "note": "Price includes registration & setup. We'll handle everything for you — just pick your domain.",
     "errorInvalid": "Please enter a valid domain, e.g. yourbusiness.com"
   },
@@ -230,7 +232,11 @@
     "title": "Plans For Every Stage Of Growth.",
     "subtitle": "Simple, honest pricing. No hidden fees — only what your project truly needs.",
     "popular": "Most Popular",
-    "cta": "Get Started",
+    "cta": "Order via WhatsApp",
+    "viewDetails": "View Details",
+    "previewEyebrow": "Packages & Pricing",
+    "previewTitle": "Simple Plans, Real Results.",
+    "from": "from",
     "plans": [
       {
         "name": "Starter",

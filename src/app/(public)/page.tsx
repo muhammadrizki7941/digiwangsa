@@ -1,4 +1,5 @@
 import HeroSection from "@/components/home/HeroSection";
+import PackagePreviewSection from "@/components/home/PackagePreviewSection";
 import PainSection from "@/components/home/PainSection";
 import SolutionsSection from "@/components/home/SolutionsSection";
 import WhyChooseSection from "@/components/home/WhyChooseSection";
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <PackagePreviewSection />
       <PainSection />
       <SolutionsSection />
       <WhyChooseSection />

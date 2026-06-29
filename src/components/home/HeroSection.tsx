@@ -51,7 +51,18 @@ export default function HeroSection() {
           priority
           className="scale-110 object-cover object-right-top opacity-0 dark:opacity-90"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-base via-base/85 to-base/40" />
+        {/* Light theme animated Javanese background */}
+        <Image
+          src="/asset/background-digiwangsa-terang.gif"
+          alt=""
+          fill
+          priority
+          unoptimized
+          className="object-cover object-center opacity-50 dark:opacity-0"
+        />
+        {/* Left scrim for text legibility — soft in light, strong in dark */}
+        <div className="absolute inset-0 bg-gradient-to-r from-base via-base/60 to-transparent dark:opacity-0" />
+        <div className="absolute inset-0 bg-gradient-to-r from-base via-base/85 to-base/40 opacity-0 dark:opacity-100" />
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-base to-transparent" />
       </motion.div>
 
@@ -121,13 +132,13 @@ export default function HeroSection() {
               ))}
             </div>
             <div>
-              <p className="font-display text-xl font-semibold text-gold">500+</p>
+              <p className="font-display text-xl font-semibold text-gold">100+</p>
               <p className="text-xs text-muted">{t("social")}</p>
             </div>
           </motion.div>
         </motion.div>
 
-        {/* Wayang illustration — parallax (outer) + sway loop (inner) */}
+        {/* Wayang illustration — parallax (outer) + sway loop (inner), shown on all themes */}
         <motion.div
           className="relative"
           style={reduce ? undefined : { y: wayangY, opacity: fade }}

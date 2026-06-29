@@ -79,6 +79,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
+      suppressHydrationWarning
       className={`${playfair.variable} ${jakarta.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-base text-cream">

@@ -1,43 +1,57 @@
-// INTERNAL — margin & base cost. Never expose base price or markup to the client.
+// INTERNAL — margin, kurs & cost. Never expose these (or the markup) to the client.
 const MARKUP = 0.10; // 10% profit margin (hidden)
 
-// Approximate registrar/Cloudflare cost per TLD in IDR (your cost, before markup).
-const BASE_PRICE_IDR: Record<string, number> = {
-  com: 165000,
-  net: 230000,
-  org: 230000,
-  xyz: 60000,
-  online: 70000,
-  site: 70000,
-  store: 95000,
-  shop: 95000,
-  tech: 110000,
-  space: 45000,
-  fun: 45000,
-  info: 230000,
-  biz: 230000,
-  dev: 230000,
-  app: 290000,
-  io: 650000,
-  co: 420000,
-  ai: 1500000,
-  id: 250000,
-  "co.id": 290000,
+// USD → IDR exchange rate used for TLDs you buy in USD (e.g. Cloudflare).
+// Set slightly above the real rate as a safety buffer against fluctuation.
+const KURS_IDR = 18000;
+
+// Your annual COST in USD for TLDs bought at registrars like Cloudflare (at-cost).
+// Keep these >= the real registrar price so you never sell below cost.
+const USD_COST: Record<string, number> = {
+  com: 10.46,
+  net: 12.18,
+  org: 11.0,
+  info: 12.98,
+  biz: 12.98,
+  dev: 12.18,
+  app: 14.18,
+  io: 46.0,
+  co: 28.0,
+  ai: 75.0,
+  me: 20.0,
+  xyz: 11.5,
+  site: 35.0,
+  online: 38.0,
+  store: 60.0,
+  shop: 35.0,
+  tech: 50.0,
+  space: 25.0,
+  fun: 25.0,
+};
+
+// TLDs bought locally (not on Cloudflare) — cost already in IDR.
+const IDR_COST: Record<string, number> = {
+  id: 230000,
+  "co.id": 280000,
+  "my.id": 55000,
   "web.id": 55000,
-  "my.id": 50000,
   "biz.id": 55000,
   "or.id": 55000,
   "sch.id": 55000,
   "ac.id": 55000,
 };
 
-const DEFAULT_BASE_IDR = 300000;
+const DEFAULT_USD_COST = 15.0;
 
-/** Final customer price (margin already applied & hidden), rounded to nearest 1.000. */
+function roundUp(n: number): number {
+  return Math.ceil(n / 1000) * 1000;
+}
+
+/** Final customer price in IDR (cost + hidden 10% margin), rounded up to nearest 1.000. */
 export function priceForTld(tld: string): number {
-  const base = BASE_PRICE_IDR[tld] ?? DEFAULT_BASE_IDR;
-  const withMargin = base * (1 + MARKUP);
-  return Math.round(withMargin / 1000) * 1000;
+  if (tld in IDR_COST) return roundUp(IDR_COST[tld] * (1 + MARKUP));
+  const usd = USD_COST[tld] ?? DEFAULT_USD_COST;
+  return roundUp(usd * KURS_IDR * (1 + MARKUP));
 }
 
 const MULTI_SUFFIX = [
@@ -71,4 +85,13 @@ export function parseDomain(input: string): { domain: string; sld: string; tld: 
   const [sld, tld] = parts;
   if (!sld || !tld) return null;
   return { domain: clean, sld, tld };
+}
+
+/** Alternative TLDs to suggest for a given SLD (excludes the one already searched). */
+export function suggestionDomains(sld: string, currentTld: string, max = 6): string[] {
+  const order = ["com", "id", "co", "net", "online", "store", "shop", "site", "xyz", "my.id", "biz.id"];
+  return order
+    .filter((t) => t !== currentTld)
+    .slice(0, max)
+    .map((t) => `${sld}.${t}`);
 }

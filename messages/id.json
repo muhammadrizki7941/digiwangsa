@@ -21,7 +21,7 @@
     "subtitle": "Jangan biarkan bisnismu cuma numpang hidup di platform orang lain. Bangun aset digital milikmu sendiri — website, toko online, dan aplikasi yang sepenuhnya kamu kendalikan.",
     "ctaPrimary": "Cek Harga",
     "ctaSecondary": "Lihat Portofolio",
-    "social": "Klien Puas di Seluruh Dunia",
+    "social": "Klien Puas",
     "aiCta": "✨ Coba AI kami: buat landing page"
   },
   "aiStudio": {
@@ -158,6 +158,8 @@
     "priceLabel": "Harga",
     "perYear": "/ tahun",
     "order": "Pesan domain ini",
+    "suggested": "Saran nama domain",
+    "suggestedNote": "Nama lain yang mungkin juga tersedia:",
     "note": "Harga sudah termasuk registrasi & setup. Kami yang urus semuanya — kamu tinggal pilih domain.",
     "errorInvalid": "Masukkan domain yang valid, mis. bisnisanda.com"
   },
@@ -230,7 +232,11 @@
     "title": "Paket Untuk Setiap Tahap Pertumbuhan.",
     "subtitle": "Harga sederhana dan jujur. Tanpa biaya tersembunyi — hanya yang benar-benar dibutuhkan proyek Anda.",
     "popular": "Paling Populer",
-    "cta": "Mulai Sekarang",
+    "cta": "Pesan via WhatsApp",
+    "viewDetails": "Lihat Detail",
+    "previewEyebrow": "Paket & Harga",
+    "previewTitle": "Paket Simpel, Hasil Nyata.",
+    "from": "mulai",
     "plans": [
       {
         "name": "Starter",

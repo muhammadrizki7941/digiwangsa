@@ -5,12 +5,14 @@ import { useTranslations } from "next-intl";
 import { Search, Loader2, CheckCircle2, XCircle, HelpCircle, MessageCircle, Globe } from "lucide-react";
 import { cn } from "@/lib/utils";
 
+type Suggestion = { domain: string; available: boolean | null; price: number };
 type Result = {
   domain: string;
   tld: string;
   available: boolean | null;
   price: number;
   currency: string;
+  suggestions?: Suggestion[];
 };
 
 const idr = (n: number) =>
@@ -48,11 +50,11 @@ export default function DomainChecker({ whatsapp }: { whatsapp: string }) {
     }
   }
 
-  const waUrl =
-    result &&
-    `https://wa.me/${whatsapp}?text=${encodeURIComponent(
-      `Halo Digiwangsa! Saya mau pesan domain ${result.domain} (${idr(result.price)}/tahun).`
+  function orderUrl(domain: string, price: number) {
+    return `https://wa.me/${whatsapp}?text=${encodeURIComponent(
+      `Halo Digiwangsa! Saya mau pesan domain ${domain} (${idr(price)}/tahun).`
     )}`;
+  }
 
   return (
     <div className="mx-auto max-w-2xl">
@@ -111,9 +113,9 @@ export default function DomainChecker({ whatsapp }: { whatsapp: string }) {
             </div>
           </div>
 
-          {result.available !== false && waUrl && (
+          {result.available !== false && (
             <a
-              href={waUrl}
+              href={orderUrl(result.domain, result.price)}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-gold mt-5 flex w-full items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold"
@@ -124,6 +126,43 @@ export default function DomainChecker({ whatsapp }: { whatsapp: string }) {
           )}
 
           <p className="mt-4 text-center text-xs leading-relaxed text-muted">{t("note")}</p>
+        </div>
+      )}
+
+      {result?.suggestions && result.suggestions.length > 0 && (
+        <div className="mt-6">
+          <p className="mb-1 text-sm font-semibold text-cream">{t("suggested")}</p>
+          <p className="mb-3 text-xs text-muted">{t("suggestedNote")}</p>
+          <div className="space-y-2">
+            {result.suggestions.map((s) => (
+              <div
+                key={s.domain}
+                className="card-glass flex items-center justify-between gap-3 rounded-xl px-4 py-3"
+              >
+                <div className="flex items-center gap-2.5">
+                  {s.available === true ? (
+                    <CheckCircle2 size={18} className="text-emerald-400" />
+                  ) : (
+                    <HelpCircle size={18} className="text-muted" />
+                  )}
+                  <span className="text-sm text-cream">{s.domain}</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-gold-gradient font-display text-sm font-bold">
+                    {idr(s.price)}
+                  </span>
+                  <a
+                    href={orderUrl(s.domain, s.price)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-full border border-gold-line/60 px-3 py-1.5 text-xs text-gold transition hover:border-gold/70"
+                  >
+                    {t("order")}
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       )}
     </div>

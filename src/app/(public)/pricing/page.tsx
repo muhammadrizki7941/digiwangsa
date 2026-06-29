@@ -5,7 +5,7 @@ import PageHeader from "@/components/ui/PageHeader";
 import CTASection from "@/components/home/CTASection";
 import Reveal from "@/components/motion/Reveal";
 import { prisma } from "@/lib/prisma";
-import ConsultButton from "@/components/lead/ConsultButton";
+import { getWhatsappNumber } from "@/lib/settings";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
@@ -17,6 +17,7 @@ export const metadata: Metadata = {
 export default async function PricingPage() {
   const t = await getTranslations("pricing");
   const plans = await prisma.pricingPlan.findMany({ orderBy: { order: "asc" } });
+  const whatsapp = await getWhatsappNumber();
 
   return (
     <>
@@ -68,7 +69,12 @@ export default async function PricingPage() {
                   ))}
                 </ul>
 
-                <ConsultButton
+                <a
+                  href={`https://wa.me/${whatsapp}?text=${encodeURIComponent(
+                    `Halo Digiwangsa, saya tertarik dengan paket ${plan.name} (${plan.price}${plan.period}). Mohon info lebih lanjut 🙏`
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={cn(
                     "mt-8 w-full rounded-full px-6 py-3 text-center text-sm font-semibold transition",
                     plan.highlighted
@@ -77,7 +83,7 @@ export default async function PricingPage() {
                   )}
                 >
                   {t("cta")}
-                </ConsultButton>
+                </a>
               </Reveal>
             );
           })}
