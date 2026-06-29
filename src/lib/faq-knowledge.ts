@@ -8,8 +8,8 @@ export const faqKnowledge: FaqEntry[] = [
   {
     keywords: ["harga", "biaya", "tarif", "paket", "price", "pricing", "rega", "budget", "berapa duit"],
     answer: {
-      id: "Kami punya 3 paket: Starter (mulai Rp 1,5jt) untuk kreator/personal, Growth (mulai Rp 5jt) untuk UMKM, dan Enterprise (custom) untuk perusahaan. Detail lengkap ada di halaman Harga ya!",
-      en: "We have 3 plans: Starter (from Rp 1.5M) for creators, Growth (from Rp 5M) for MSMEs, and Enterprise (custom) for companies. Full details are on the Pricing page!",
+      id: "Kami punya 3 paket: Starter (mulai Rp 500rb) untuk kreator/personal, Growth (mulai Rp 5jt) untuk UMKM, dan Enterprise (custom) untuk perusahaan. Detail lengkap ada di halaman Harga ya!",
+      en: "We have 3 plans: Starter (from Rp 500K) for creators, Growth (from Rp 5M) for MSMEs, and Enterprise (custom) for companies. Full details are on the Pricing page!",
     },
   },
   {

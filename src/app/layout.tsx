@@ -20,17 +20,22 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Digiwangsa — Premium Website & Application Development",
+    default:
+      "Jasa Bikin Website, Aplikasi & Web App Murah Berkualitas | Digiwangsa",
     template: "%s — Digiwangsa",
   },
   description:
-    "Digiwangsa builds premium websites and applications with a Javanese soul and world-class standards — for creators, MSMEs, and enterprise brands.",
+    "Jasa pembuatan website, aplikasi, web app, portal berita, marketplace, dan listing dengan harga termurah untuk budget minim — kualitas dan kecepatan tidak murahan. Mulai Rp 500 ribuan.",
   keywords: [
-    "jasa pembuatan website",
-    "jasa pembuatan aplikasi",
-    "web developer Indonesia",
-    "landing page",
-    "company profile",
+    "jasa bikin website murah",
+    "jasa pembuatan aplikasi murah",
+    "jasa bikin web app",
+    "jasa bikin website berita",
+    "jasa bikin marketplace",
+    "jasa bikin website listing",
+    "jasa pembuatan website murah berkualitas",
+    "jasa bikin aplikasi budget minim",
+    "web developer Indonesia murah",
     "Digiwangsa",
   ],
   authors: [{ name: "Digiwangsa" }],
@@ -38,16 +43,18 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "Digiwangsa",
-    title: "Digiwangsa — Premium Website & Application Development",
+    title:
+      "Jasa Bikin Website, Aplikasi & Web App Murah Berkualitas | Digiwangsa",
     description:
-      "Premium websites and applications crafted with a Javanese soul and world-class standards.",
+      "Jasa pembuatan website, aplikasi, web app, berita, marketplace, dan listing. Harga termurah untuk budget minim, kualitas & kecepatan tidak murahan. Mulai Rp 500 ribuan.",
     url: siteUrl,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digiwangsa — Premium Website & Application Development",
+    title:
+      "Jasa Bikin Website, Aplikasi & Web App Murah Berkualitas | Digiwangsa",
     description:
-      "Premium websites and applications crafted with a Javanese soul and world-class standards.",
+      "Website, aplikasi, web app, berita, marketplace & listing. Harga termurah untuk budget minim, kualitas tidak murahan. Mulai Rp 500 ribuan.",
   },
   robots: {
     index: true,
@@ -70,7 +77,7 @@ export default async function RootLayout({
     url: siteUrl,
     logo: `${siteUrl}/asset/digiwangsa.png`,
     description:
-      "Premium website and application development with a Javanese soul and world-class standards.",
+      "Jasa pembuatan website, aplikasi, web app, portal berita, marketplace, dan listing dengan harga terjangkau untuk budget minim — kualitas dan kecepatan tidak murahan.",
     slogan: "Digital. Traditional. Solution.",
     areaServed: "Worldwide",
     knowsLanguage: ["id", "en", "jv"],

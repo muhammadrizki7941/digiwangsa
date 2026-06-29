@@ -23,7 +23,13 @@ const item: Variants = {
   show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
 };
 
-export default function HeroSection() {
+type HeroAvatar = { id: string; name: string; avatar: string | null };
+
+export default function HeroSection({
+  avatars = [],
+}: {
+  avatars?: HeroAvatar[];
+}) {
   const t = useTranslations("hero");
   const reduce = useReducedMotion();
   const ref = useRef<HTMLElement>(null);
@@ -124,12 +130,26 @@ export default function HeroSection() {
 
           <motion.div variants={item} className="mt-10 flex items-center gap-4">
             <div className="flex -space-x-3">
-              {[0, 1, 2, 3].map((i) => (
-                <span
-                  key={i}
-                  className="h-10 w-10 rounded-full border-2 border-base bg-gradient-to-br from-gold-line to-elevated"
-                />
-              ))}
+              {avatars.map((a) =>
+                a.avatar ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    key={a.id}
+                    src={a.avatar}
+                    alt={a.name}
+                    className="h-10 w-10 rounded-full border-2 border-base object-cover"
+                  />
+                ) : null
+              )}
+              {/* Keep four circles even when fewer client photos exist. */}
+              {Array.from({ length: Math.max(0, 4 - avatars.length) }).map(
+                (_, i) => (
+                  <span
+                    key={`ph-${i}`}
+                    className="h-10 w-10 rounded-full border-2 border-base bg-gradient-to-br from-gold-line to-elevated"
+                  />
+                )
+              )}
             </div>
             <div>
               <p className="font-display text-xl font-semibold text-gold">100+</p>

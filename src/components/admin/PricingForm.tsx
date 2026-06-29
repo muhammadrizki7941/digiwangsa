@@ -33,7 +33,7 @@ export default function PricingForm({ plan }: { plan?: PricingFormData }) {
         </div>
         <div>
           <label className={label}>Harga</label>
-          <input name="price" required defaultValue={plan?.price} className={field} placeholder="Rp 1,5jt / Custom" />
+          <input name="price" required defaultValue={plan?.price} className={field} placeholder="Rp 500rb / Custom" />
         </div>
         <div>
           <label className={label}>Periode (opsional)</label>

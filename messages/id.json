@@ -14,11 +14,11 @@
     "recommended": "Disarankan"
   },
   "hero": {
-    "eyebrow": "Bangun Aset Digital Milikmu",
-    "titleLine1": "Usahamu Nyata.",
-    "titleLine2": "Digitalnya Harus",
-    "titleHighlight": "Lebih Kuat.",
-    "subtitle": "Jangan biarkan bisnismu cuma numpang hidup di platform orang lain. Bangun aset digital milikmu sendiri — website, toko online, dan aplikasi yang sepenuhnya kamu kendalikan.",
+    "eyebrow": "Jasa Pembuatan Website, Aplikasi & Web App",
+    "titleLine1": "Jasa Bikin Website, Aplikasi",
+    "titleLine2": "& Web App",
+    "titleHighlight": "Murah & Berkualitas.",
+    "subtitle": "Jasa pembuatan website, aplikasi, web app, portal berita, marketplace, dan listing. Harga paling terjangkau untuk budget minim — tapi kualitas desain dan kecepatannya tidak murahan. Mulai Rp 500 ribuan, pengerjaan cepat.",
     "ctaPrimary": "Cek Harga",
     "ctaSecondary": "Lihat Portofolio",
     "social": "Klien Puas",
@@ -46,9 +46,9 @@
     "cta": "Mulai Proyek Anda"
   },
   "solutions": {
-    "eyebrow": "Jelajahi Solusi Kami",
-    "title": "Dirancang Untuk Setiap Visi Dan Ambisi.",
-    "subtitle": "Temukan bagaimana kami merancang solusi digital yang mengangkat personal brand, memberdayakan bisnis, dan mendorong pertumbuhan enterprise.",
+    "eyebrow": "Solusi Digital Lengkap",
+    "title": "Website, Aplikasi, Berita, Marketplace & Listing.",
+    "subtitle": "Apa pun yang ingin kamu bangun — website bisnis, aplikasi, web app, portal berita, marketplace, atau situs listing — kami kerjakan dengan harga terjangkau dan hasil berkualitas.",
     "viewCase": "Lihat Studi Kasus",
     "personal": {
       "tag": "Personal Brand / Influencer",
@@ -68,14 +68,14 @@
   },
   "why": {
     "eyebrow": "Mengapa Memilih Digiwangsa",
-    "title": "Lebih Dari Sekadar Website. Kami Membangun Pengalaman Digital.",
+    "title": "Harga Murah, Hasil Tidak Murahan.",
     "design": {
-      "title": "Desain Premium",
-      "desc": "Antarmuka modern yang dibuat dengan perhatian pada detail dan identitas visual yang kuat."
+      "title": "Harga Paling Terjangkau",
+      "desc": "Cocok untuk budget minim. Mulai Rp 500 ribuan dengan harga transparan, tanpa biaya tersembunyi."
     },
     "performance": {
-      "title": "Performa Tinggi",
-      "desc": "Cepat, responsif, dan dioptimalkan untuk setiap perangkat."
+      "title": "Cepat & Berkualitas",
+      "desc": "Pengerjaan cepat, website ringan dan ngebut, dioptimalkan untuk setiap perangkat."
     },
     "strategy": {
       "title": "Pendekatan Strategis",
@@ -125,7 +125,7 @@
   },
   "testimonials": {
     "eyebrow": "Kata Mereka",
-    "title": "Dipercaya Brand yang Menuntut Kualitas."
+    "title": "Harga Murah, Hasil Bikin Klien Puas."
   },
   "faqSection": {
     "eyebrow": "Pertanyaan yang Sering Diajukan",
@@ -133,15 +133,15 @@
   },
   "footer": {
     "tagline": "Digital. Tradisional. Solusi.",
-    "desc": "Website dan aplikasi premium yang dibuat dengan jiwa Jawa dan standar kelas dunia.",
+    "desc": "Jasa pembuatan website, aplikasi, web app, portal berita, marketplace, dan listing dengan harga terjangkau dan kualitas terjaga.",
     "explore": "Jelajahi",
     "contact": "Kontak",
     "rights": "Seluruh hak cipta dilindungi."
   },
   "cta": {
-    "eyebrow": "Jangan Tunda",
-    "title": "Bisnismu Terlalu Berharga untuk Bergantung Penuh pada Platform Orang Lain.",
-    "subtitle": "Mulai bangun aset digital milikmu hari ini. Ceritakan bisnismu — kami siapkan solusi digitalnya.",
+    "eyebrow": "Mulai Sekarang",
+    "title": "Bikin Website atau Aplikasi Sendiri, Mulai Rp 500 Ribuan.",
+    "subtitle": "Budget minim bukan halangan. Ceritakan kebutuhanmu — website, aplikasi, web app, berita, marketplace, atau listing — kami siapkan solusinya dengan harga terjangkau.",
     "primary": "Konsultasi Gratis via WhatsApp",
     "secondary": "Lihat Harga"
   },
@@ -189,8 +189,8 @@
   },
   "services": {
     "eyebrow": "Layanan Kami",
-    "title": "Keahlian Digital, Dari Hulu Ke Hilir.",
-    "subtitle": "Dari satu landing page hingga aplikasi custom penuh — kami merancang, membangun, dan merawat produk digital yang berkinerja.",
+    "title": "Jasa Bikin Website, Aplikasi, Berita, Marketplace & Listing.",
+    "subtitle": "Dari landing page, toko online, portal berita, marketplace, hingga situs listing dan aplikasi web custom — semua dikerjakan cepat dengan harga terjangkau dan kualitas terjaga.",
     "feature": "Yang Anda dapatkan",
     "items": [
       {
@@ -199,14 +199,14 @@
         "features": ["Desain premium custom", "Struktur siap SEO", "Mobile-first & responsif", "Integrasi WhatsApp & form"]
       },
       {
-        "name": "E-Commerce & Toko Online",
-        "desc": "Berjualan dengan tenang lewat toko online yang aman dan mudah dikelola.",
-        "features": ["Manajemen produk & pesanan", "Integrasi payment gateway", "Dashboard inventaris", "Fitur promo & diskon"]
+        "name": "Toko Online, Marketplace & Listing",
+        "desc": "Toko online, marketplace multi-penjual, atau situs listing/direktori yang aman dan mudah dikelola.",
+        "features": ["Manajemen produk & pesanan", "Integrasi payment gateway", "Multi-vendor & listing", "Fitur promo & diskon"]
       },
       {
-        "name": "Aplikasi Web & Sistem Custom",
-        "desc": "Sistem yang dibuat khusus untuk mengotomatiskan operasional dan tumbuh bersama bisnis Anda.",
-        "features": ["Alur kerja & peran custom", "Dashboard & analitik", "Integrasi API & pihak ketiga", "Arsitektur siap cloud"]
+        "name": "Web App, Portal Berita & Sistem Custom",
+        "desc": "Aplikasi web, portal berita/media, hingga sistem custom yang mengotomatiskan operasional dan tumbuh bersama bisnis Anda.",
+        "features": ["CMS berita & artikel", "Alur kerja & peran custom", "Dashboard & analitik", "Integrasi API & cloud"]
       },
       {
         "name": "Pemeliharaan, SEO & Dukungan",
@@ -228,19 +228,19 @@
     ]
   },
   "pricing": {
-    "eyebrow": "Harga Transparan",
-    "title": "Paket Untuk Setiap Tahap Pertumbuhan.",
-    "subtitle": "Harga sederhana dan jujur. Tanpa biaya tersembunyi — hanya yang benar-benar dibutuhkan proyek Anda.",
+    "eyebrow": "Harga Transparan & Terjangkau",
+    "title": "Harga Murah untuk Budget Minim.",
+    "subtitle": "Harga jujur dan terjangkau, mulai Rp 500 ribuan. Tanpa biaya tersembunyi — cocok untuk budget minim, kualitas tetap terjaga.",
     "popular": "Paling Populer",
     "cta": "Pesan via WhatsApp",
     "viewDetails": "Lihat Detail",
     "previewEyebrow": "Paket & Harga",
-    "previewTitle": "Paket Simpel, Hasil Nyata.",
+    "previewTitle": "Murah, Cepat, Hasil Nyata.",
     "from": "mulai",
     "plans": [
       {
         "name": "Starter",
-        "price": "Rp 1,5jt",
+        "price": "Rp 500rb",
         "period": "/ proyek",
         "segment": "Untuk kreator & personal brand",
         "features": ["Landing page 1–3 halaman", "Desain responsif premium", "Setup SEO dasar", "Integrasi WhatsApp", "2x revisi gratis"]

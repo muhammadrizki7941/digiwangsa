@@ -121,7 +121,7 @@ const portfolios = [
 const pricingPlans = [
   {
     name: "Starter",
-    price: "Rp 1,5jt",
+    price: "Rp 500rb",
     period: "/ proyek",
     segment: "Untuk kreator & personal brand",
     features: ["Landing page 1–3 halaman", "Desain responsif premium", "Setup SEO dasar", "Integrasi WhatsApp", "2x revisi gratis"],

@@ -3,7 +3,15 @@ import { writeFile, mkdir } from "fs/promises";
 import path from "path";
 import { getSession } from "@/lib/session";
 
-const ALLOWED = ["image/png", "image/jpeg", "image/webp", "image/avif"];
+// MIME type -> file extension. We trust the validated type, not the
+// original filename, so files with a missing/odd extension still get a
+// correct, browser-renderable extension (and Content-Type) when served.
+const ALLOWED: Record<string, string> = {
+  "image/png": "png",
+  "image/jpeg": "jpg",
+  "image/webp": "webp",
+  "image/avif": "avif",
+};
 const MAX_BYTES = 5 * 1024 * 1024; // 5 MB
 
 export async function POST(req: Request) {
@@ -19,7 +27,8 @@ export async function POST(req: Request) {
   if (!(file instanceof File)) {
     return NextResponse.json({ error: "No file provided" }, { status: 400 });
   }
-  if (!ALLOWED.includes(file.type)) {
+  const ext = ALLOWED[file.type];
+  if (!ext) {
     return NextResponse.json(
       { error: "Format harus PNG, JPG, WEBP, atau AVIF." },
       { status: 400 }
@@ -33,7 +42,6 @@ export async function POST(req: Request) {
   }
 
   const buffer = Buffer.from(await file.arrayBuffer());
-  const ext = (file.name.split(".").pop() || "png").toLowerCase();
   const base = file.name
     .replace(/\.[^.]+$/, "")
     .toLowerCase()
